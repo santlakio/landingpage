@@ -28,15 +28,15 @@ function taustaKuva() {
         
     if(hour < 12) {
         // Aamu
-        document.body.style.backgroundImage = "url(img/aamu.jpg)";
+        document.body.style.backgroundImage = "url(aamu.jpg)";
         greeting.textContent = 'Hyvää Huomenta';
     } else if (hour < 18) {
         // Iltapäivä
-        document.body.style.backgroundImage = "url(img/iltapaiva.jpg)";
+        document.body.style.backgroundImage = "url(iltapaiva.jpg)";
         greeting.textContent = 'Hyvää Iltapäivää';
     } else {
         // Ilta
-        document.body.style.backgroundImage = "url(img/ilta.jpg)";
+        document.body.style.backgroundImage = "url(ilta.jpg)";
         greeting.textContent = 'Hyvää Iltaa';
         document.body.style.color= 'white;'
 
